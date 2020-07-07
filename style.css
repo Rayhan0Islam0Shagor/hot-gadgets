@@ -1,0 +1,136 @@
+.banner{
+    background: url(images/dooted-qube.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.navbr a{
+color: dimgrey;
+font-weight: 700;
+}
+.navbr a:hover{
+    color: rgb(255, 145, 0);
+}
+.my-btn{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 9px 25px;
+}
+.my-btn:hover{
+    background-image: linear-gradient(45deg, rgb(241, 184, 79), rgb(255, 145, 0));
+color: black;
+font-weight: 700;
+}
+.carousel-item{
+    padding: 20px 50px;
+}
+.container{
+    margin-bottom: 80px;
+}
+.carousel{
+    padding: 0px 60px;
+    border-radius: 20px;
+}
+.carousel-item .active{
+background-color: #ff267b;
+width: 35px;
+}
+.carousel-indicators li{
+    cursor: pointer;
+    height: 5px;
+    width: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg, rgba(241, 185, 79, 0.534), rgb(255, 145, 0));
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.see-all{
+    color: #ff9f05;
+    text-underline-position: below;
+    cursor: pointer;
+}
+.justify-content-center{
+    margin: 10px auto;
+}
+.card-footer{
+    border: none;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.amar h4{
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 0;
+    margin: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.amar h4::before{
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 8px;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg,rgb(255, 196, 0), #ff9100);
+    bottom: 0;
+    left: 15px;
+    margin-bottom: 0;
+}
+.own{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 30px lightgray;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 30px 35px;
+    cursor: pointer;
+}
+.own1, .own2{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 30px lightgray;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 25px 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.own1 h5{
+    padding: 5px 40px;
+    font-weight: 700;
+    color: dimgrey;
+    padding-bottom: 10px;
+
+}
+.own2 h5{
+    padding: 5px 40px;
+    font-weight: 700;
+    color: dimgrey;
+}
+.own h5{
+    padding: 10px 45px;
+    font-weight: 700;
+    color: dimgrey;
+}
+.pale-order img{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.go-top-btn{
+    color: rgb(255, 72, 0);
+    height: 50px;
+    width: 50px;
+    border: none;
+    transition: 0.5s ease;
+}
+.go-top-btn:hover{
+    transform: scale(1.3);
+}
