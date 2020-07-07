@@ -33,20 +33,20 @@ font-weight: 700;
     padding: 0px 60px;
     border-radius: 20px;
 }
-.carousel-item .active{
-background-color: #ff267b;
-width: 35px;
-}
 .carousel-indicators li{
-    cursor: pointer;
-    height: 5px;
-    width: 25px;
-    margin: 5px;
-    border-radius: 15px;
-    background-image: linear-gradient(45deg, rgba(241, 185, 79, 0.534), rgb(255, 145, 0));
-    display: inline-block;
-    transition: background-color 0.3s ease;
+   width: 12px;
+   height: 9px;
+   background-color: #cacaca;
+   border-radius: 46%;
 }
+.carousel-indicators .active{
+    opacity: 1;
+    width: 32px;
+    height: 9px;
+    background-image:linear-gradient(45deg, #fdc21f, #fcc87a) ;
+    border-radius: 44%;
+    transition: .8s;
+    }
 .see-all{
     color: #ff9f05;
     text-underline-position: below;
